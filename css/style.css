@@ -155,3 +155,10 @@ input[type=text]{
 	padding-bottom: 5px;
 	margin: 0px;
 }
+.title-main{
+	text-align: center;
+	color: #2ec9b9;
+	border-bottom: 2px solid #2ec9b9;
+	padding-bottom: 5px;
+	margin: 0px;
+}
