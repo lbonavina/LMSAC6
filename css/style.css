@@ -155,3 +155,67 @@ input[type=text]{
 	padding-bottom: 5px;
 	margin: 0px;
 }
+
+.titulo  {
+	font-size: 40px;
+	font-weight: 900;
+	width: auto;
+	margin-bottom: 25px;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #1baa9b;
+}
+
+.purple {
+	color: #192c70;
+}
+.sobre  {
+	padding: 10px 50px 10px 50px;
+	border-bottom: : 5px solid #b7ffef; 
+
+	
+}
+
+.conteudo {
+	text-align: center;
+	color: #666;
+	margin-top: -20px;
+	padding-bottom: 25px;
+}
+
+.dizem {
+	border-top: 2px solid #c3f4e9;
+	background-color: #9de0d1;
+	padding-bottom: 15px;
+	display: table;
+}
+
+.cliente {
+	border: 2px solid #4a8986;
+	border-radius: 8px; 
+	background-color: #395a53;
+	width: 350px;
+	float: left;
+	margin:  50px;
+
+
+}
+
+.cliente h2 {
+	text-align: center;
+	color: #1a2346;
+
+}
+
+.falando {
+	color: #150f2f;
+	padding: 10px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.final {
+	padding-bottom: 20px;
+}
+
