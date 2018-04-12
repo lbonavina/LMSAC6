@@ -155,6 +155,7 @@ input[type=text]{
 	padding-bottom: 5px;
 	margin: 0px;
 }
+<<<<<<< HEAD
 
 .titulo  {
 	font-size: 40px;
@@ -219,3 +220,12 @@ input[type=text]{
 	padding-bottom: 20px;
 }
 
+=======
+.title-main{
+	text-align: center;
+	color: #2ec9b9;
+	border-bottom: 2px solid #2ec9b9;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+>>>>>>> 4d6f5030b123fb57827c7c52d23ea52e2a308fee
