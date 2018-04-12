@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>LMS - Bem vindo</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+	<div class="menu-center">
+	<div class="logo"><img src="img/logo.png" alt="Logo Aura" height="65" /></div>
+	<nav class="menu-home">
+		<a href="index.html"><li><i class="fas fa-home"></i> HOME</li></a>
+		<div class="dropdown menu-li">
+			<span><i class="fas fa-certificate"></i> CURSOS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+						<a href="detalhe_curso.html"><li class="item-drop">DETALHES DE CURSO</li></a>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown menu-li">
+			<span><i class="fab fa-leanpub"></i> DISCIPLINAS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+					<a href="disciplinas_curso.html"><li class="item-drop">DISCIPLINAS DE CURSO</li></a>
+					<hr>
+					<a href="detalhe_disci.html"><li class="item-drop">DETALHES DA DISCIPLINA</li>
+				</div>
+			</div>
+		</div>
+		<a href="m_curso.html"><li><i class="fas fa-plus"></i> CURSO</li></a>
+		<a href="m_disciplina.html"><li><i class="fas fa-plus"></i> DISCIPLINA</li></a>
+		<a href="login.html"><li class="btn-login"><i class="fas fa-user-circle"></i> LOGIN</li></a>
+	</nav>
+	</div>
+</header>
+<img src="img/mcurso.jpg" width="100%"><br/><br/>
+<br/><br/><br/>
+<center><fieldset>
+ <legend>NOVOS CURSOS</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="Curso">Curso:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="Curso">
+   </td>
+   <td>
+    <label for="Semestre">Semestre:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="Semestre" size="10">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="Periodo">Periodo: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Periodo">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="Unidade">Unidade:</label>
+   </td>
+   <td align="left">
+    <select name="Unidade"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="cidade">Cidade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cidade">
+   </td>
+  </tr>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</table>
+</fieldset>
+</center>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<br/><br/><br/>
+<br/><br/><br/>
+
+<footer>
+	Copyright © 2018 - Aura Systems
+</footer>
+</body>
+</html>

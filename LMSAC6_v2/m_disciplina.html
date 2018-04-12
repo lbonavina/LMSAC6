@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>LMS - Bem vindo</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+	<div class="menu-center">
+	<div class="logo"><img src="img/logo.png" alt="Logo Aura" height="65" /></div>
+	<nav class="menu-home">
+		<a href="index.html"><li><i class="fas fa-home"></i> HOME</li></a>
+		<div class="dropdown menu-li">
+			<span><i class="fas fa-certificate"></i> CURSOS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+						<a href="detalhe_curso.html"><li class="item-drop">DETALHES DE CURSO</li></a>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown menu-li">
+			<span><i class="fab fa-leanpub"></i> DISCIPLINAS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+					<a href="disciplinas_curso.html"><li class="item-drop">DISCIPLINAS DE CURSO</li></a>
+					<hr>
+					<a href="detalhe_disci.html"><li class="item-drop">DETALHES DA DISCIPLINA</li>
+				</div>
+			</div>
+		</div>
+		<a href="m_curso.html"><li><i class="fas fa-plus"></i> CURSO</li></a>
+		<a href="m_disciplina.html"><li><i class="fas fa-plus"></i> DISCIPLINA</li></a>
+		<a href="login.html"><li class="btn-login"><i class="fas fa-user-circle"></i> LOGIN</li></a>
+	</nav>
+	</div>
+</header>
+<img src="img/mdisci.jpg" width="100%"><br/><br/>
+
+<br/><br/><br/>
+<center>
+<fieldset>
+ <legend>NOVAS DICIPLINAS </legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="Disciplina">Disciplina: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Disciplina">
+   </td>
+ </tr>
+  <td>
+   <label for="Professor">Professor: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Professor">
+   </td>
+   <td>
+    <label>Ano: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+   </td>
+  </tr>
+   <td>
+    <label for="Unidade">Unidade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Unidade">
+   </td>
+  </tr>
+  <td>
+    <label for="Semestre">Semestre: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Semestre">
+   </td>
+  </tr>
+  <td>
+    <label for="Periodo">Periodo: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="Periodo">
+   </td>
+  </tr>
+</form>
+</center>
+
+
+
+<footer>
+	Copyright © 2018 - Aura Systems
+</footer>
+</body>
+</html>
