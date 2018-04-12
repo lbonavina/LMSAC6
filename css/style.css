@@ -155,7 +155,7 @@ input[type=text]{
 	padding-bottom: 5px;
 	margin: 0px;
 }
-<<<<<<< HEAD
+
 
 .titulo  {
 	font-size: 40px;
@@ -190,6 +190,7 @@ input[type=text]{
 	background-color: #9de0d1;
 	padding-bottom: 15px;
 	display: table;
+	width: 100%;
 }
 
 .cliente {
@@ -198,7 +199,7 @@ input[type=text]{
 	background-color: #395a53;
 	width: 350px;
 	float: left;
-	margin:  50px;
+	margin:  26px;
 
 
 }
@@ -220,12 +221,29 @@ input[type=text]{
 	padding-bottom: 20px;
 }
 
-=======
-.title-main{
+.subt {
+	font-size: 25px;
 	text-align: center;
-	color: #2ec9b9;
-	border-bottom: 2px solid #2ec9b9;
+	color: #382754;
 	padding-bottom: 5px;
 	margin: 0px;
 }
->>>>>>> 4d6f5030b123fb57827c7c52d23ea52e2a308fee
+
+.titulo2 {
+	font-size: 25px;
+	text-align: center;
+	color:#FFF;
+	background-color:#382754;
+	border-radius: 10px;
+	margin-bottom:5px;
+	padding:15px;
+}
+
+.section p {
+	text-align: justify;
+	text-shadow: 1px 1px 1px #30776d;
+}
+
+.borda {
+	border-bottom: 2px solid #382754;
+}
