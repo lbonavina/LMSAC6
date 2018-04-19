@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Formulários com Javascript</title>
+<script language="javascript" type="text/javascript">
+function validar() {
+var nome = document.forms["form1"]["nome"].value;
+var data = document.forms["form1"]["data"].value;
+var cpf = document.forms["form1"]["cpf"].value;
+var email = document.forms["form1"]["email"].value;
+var celular = document.forms["form1"]["celular"].value;
+var login = document.forms["form1"]["login"].value;
+var senha = document.forms["form1"]["senha"].value;
+var rep_senha = document.forms["form1"]["rep_senha"].value;
+
+if (nome == "") {
+alert('Preencha o campo com o seu nome completo');
+return false;
+}
+if (data == "") {
+alert('Preencha o campo com sua data de nascimento');
+return false;
+}
+if (cpf == "") {
+alert('Preencha o campo com seu cpf');
+return false;
+}
+if (email == "") {
+alert('Preencha o campo com seu email');
+return false;
+}
+if (celular == "") {
+return false;
+}
+if (login == "") {
+alert('Preencha o campo com seu login');
+return false;
+}
+if (senha == "") {
+alert('Preencha o campo com sua senha');
+return false;
+}
+if (rep_senha != senha) {
+alert('Repita sua senha correta');
+return false;
+}
+if (nome.length > 25){
+alert('Nome só pode ter no máximo 25 caracteres.');
+return false;
+}
+
+
+}
+</script>
+</head>
+<center>
+<img src="logo.png">
+<br /> <br />
+<fieldset>
+ <legend>NOVO ALUNO</legend> 
+ <body>
+</fieldset>
+</center>
+<form name="form1" action="#" onsubmit="return validar()" method="post">
+<center>
+<fieldset>
+Nome Completo:
+<input name="nome" type="text">  <br /><br / >
+Data de Nascimento:
+<input name="data" type="text"><br /><br />
+CPF:
+<input name="cpf" type="text"><br /><br />
+E-mail:
+<input name="email" type="text"><br /><br />
+Celular:
+<input name="celular" type="text"><br /><br />
+Login:
+<input name="login" type="text"><br /><br />
+Senha:
+<input name="senha" type="password"><br /><br />
+Repitir Senha:
+<input name="rep_senha" type="password"><br /><br />
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</center>
+</form>
+</body>
+</table>
+</fieldset>
+</html>
