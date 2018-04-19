@@ -246,4 +246,62 @@ input[type=text]{
 
 .borda {
 	border-bottom: 2px solid #382754;
+
+}
+
+
+.title2{
+	font-size: 20px;
+	text-align: center;
+	color: #2ec9b9;
+	border-bottom: 2px solid #2ec9b9;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+
+select {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #636867;
+}
+
+:: -webkit-scrollbar-track; {
+	border: 1px solid #636867;
+	border-radius: 1px;
+}
+
+/* BUTTONS */
+.btn-1{
+	width: 49.5%;
+	margin-right: 0.5%;
+	color: #fff;
+	border-radius: 5px;
+	background: #2ec9b9;
+	border: 1px solid #2bab9e;
+	box-shadow: 0px 0px 10px 0px #ccc;
+	transition: transform .2s;
+	float: left;
+
+	
+}
+.btn-1:hover{
+	transform: scale(1.05);
+}
+
+input[type= date] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #636867;
 }
