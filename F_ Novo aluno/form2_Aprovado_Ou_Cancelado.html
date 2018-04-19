@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Formulários com Javascript</title>
+<script language="javascript" type="text/javascript">
+var count = 0;
+function contador() {
+    {
+        var nome = document.forms["form1"]["nome"].value;
+		var ra = document.forms["form1"]["ra"].value;
+		var op = document.forms["form1"]["op"].value;
+		if(nome == ""){
+            alert("Coloque o Nome !");
+        }
+		
+		if(ra == ""){
+            alert("Coloque o RA !");
+        }
+		
+		if(op == ""){
+            alert("Escolha Entre Aprovado ou  Cancelado!");
+        }
+		
+			
+		count++;
+
+        if(count == 20){
+            alert("Minimo de 20 Alcançado");
+        }
+		if(count == 60){
+            alert("Maximo de 60 Alcançado !");
+   document.getElementById('btn').disabled=true;
+
+        }
+		
+		
+		
+    }; 
+}
+function validar() {
+		 if(count < 20){
+			alert('Inserimento Minimo Não Alcançado!');
+			return false;
+		 }
+		  if(count > 60){
+			alert('Inserimento Maximo Alcançado!');
+			return false;
+		 }
+		  if(count >= 20 ){
+			alert('Inserido Com Sucesso');
+			count = 0;
+			document.getElementById('btn').disabled=false;
+		 }
+}
+</script>
+</head>
+<center>
+<img src="logo.png">
+<br /> <br />
+<fieldset>
+ <legend>NOVO ALUNO</legend> 
+ <body>
+</fieldset>
+</center>
+<form name="form1" action="#" onsubmit="return validar()" method="post">
+<center>
+<fieldset>
+
+Nome Completo: <input name="nome" type="text"> &nbsp;&nbsp; RA: <input name="ra" type="text">
+<input type="radio" name="op" value="aprovado"> Aprovado 
+<input type="radio" name="op" value="cancelado"> Cancelado
+
+ </p>
+ <br/><br/>
+<button type="button" onclick="validar();" id="btn1">Enviar</button><button type="button" onclick="contador();" id="btn">Inserir</button><br><input type="reset" value="Limpar">
+</center>
+</form>
+</body>
+</table>
+</fieldset>
+</html>
