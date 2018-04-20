@@ -1,0 +1,221 @@
+NOTÍCIAS / DEPOIMENTOS / CURSOS / PREMIAÇÕES / LOGIN
+
+
+Index:
+
+Desde 2018 
+-Imagem-
+Para desenvolver um jogo eletrônico, são necessários vários profissionais para as fases de criação, desenvolvimento, implementação e operação.
+Portanto, a Aura disponibiliza cursos que atenda a cada uma dessas fases e responsabiliza pela formação de profissionais
+que atenda a todas as competências exigidas pelo mercado de trabalho.
+
+
+Menu:
+
+NOTÍCIAS:
+(12/04/2018)
+Novo site é lançado em comemoração a inauguração da faculdade Aura.
+
+NOTÍCIAS ANTERIORES:
+(CAMPO VAZIO POR ENQUANTO)
+
+DEPOIMENTOS:
+
+(CAMPO VAZIO POR ENQUANTO)
+
+CURSOS:
+
+DESIGN DE JOGOS
+Duração: 2 anos
+Carga Horária: 2.400 horas (só pra preencher mesmo)
+Curso presencial, de segunda a sexta.
+
+NÍVEL 1/ PRIMEIRO SEMESTRE:
+
+Estética e História da Arte
+Descrição:
+
+Dramaturgia e Roteiro
+Descrição: Essa disciplina tem como objetivo capacitar os alunos na criação de roteiros para jogos.
+
+Evolução dos Games
+Descrição: Todo o processo de evolução dos games desde a primeira geração será estudada nessa disciplina.
+
+História e Princípios do jogo
+Descrição: Abordará a história dos jogos tradicionais desde os primeiros estudos.
+
+Marketing para jogos
+Descrição: O objetivo é reunir informações sobre como um jogo fará sucesso e será rentável.
+Será estudado noções de marketing, criação de materiais de divulgação, estudo de mercado para verificação de aplicabilidade de um game, etc.
+
+NÍVEL 2/ SEGUNDO SEMESTRE: 
+
+Laboratório de Produção
+Descrição: O laboratório de produção estará disponível para os alunos desenvolverem seus projetos de criação.
+
+Narrativa para Jogos
+Descrição: Essa disciplina abordará a função do narrador dentro do jogo e o processo de criação da história que ajudará o player a compreender o enredo.
+
+Criação e Documentação
+Descrição:
+
+Ilustração Digital
+Descrição:
+
+Design de Jogo Analógico
+Descrição:
+
+NÍVEL 3 / TERCEIRO SEMESTRE: 
+
+Design de Personagens
+Descrição:
+
+Design de Som
+Descrição:
+
+Level Design
+Descrição:
+
+Modelagem e Texturarização
+Descrição:
+
+Metodologia Científica
+Descrição:
+
+NÍVEL 4 / QUARTO SEMESTRE:
+
+Direção de arte para jogos
+Descrição:
+
+Ambiente 2D
+Descrição:
+
+Estágio Supervisionado
+Descrição:
+
+Ambiente 3D
+Descrição:
+
+Design de Interface e Interação
+Descrição:
+
+Transmídia
+Descrição: A transmídia tem como objetivo mesclar diferentes mídias para transmitir variados conteúdos para o público de forma que os meios se complementem.
+Nos jogos, o estudo da transmídia será importante para induzir o ato de contar histórias através de várias mídias dentro de um cenário.
+
+Trabalho de Conclusão de Curso
+Descrição:
+
+Mercado de trabalho:
+O profissional em Design de Games atuará na fase de criação, desde os primeiros passos para a construção de um game.
+Ele será responsável pela construção do enredo, do universo onde o jogo ocorre, personagens, níveis, entre outros elementos.
+
+
+DESENVOLVIMENTO DE JOGOS
+Duração: 2 anos
+Carga horária: 2.400 horas (só pra preencher mesmo)
+Curso presencial, de segunda a sexta.
+
+NÍVEL 1/ PRIMEIRO SEMESTRE:
+Fundamentos da Animação 3D
+Detalhes:
+
+Computação gráfica
+Detalhes:
+
+Lógica de Programação
+Detalhes:
+
+Engine I
+Detalhes:
+
+Introdução a Física
+Detalhes:
+
+NÍVEL 2/ SEGUNDO SEMESTRE:
+Planejamento de Jogos
+Detalhes:
+
+Transmídia
+Detalhes: A transmídia tem como objetivo mesclar diferentes mídias para transmitir variados conteúdos para o público de forma que os meios se complementem.
+Nos jogos, o estudo da transmídia será importante para induzir o ato de contar histórias através de várias mídias dentro de um cenário.
+
+Física Aplicada a Jogos Digitais
+Detalhes:
+
+Engine II
+Detalhes:
+
+Programação para Jogos
+Detalhes:
+
+NÍVEL 3/ TERCEIRO SEMESTRE:
+Jogos Digitais para Dispositivos Móveis
+Detalhes:
+
+Redes
+Detalhes:
+
+Trabalho de Conclusão de Curso
+Detalhes:
+
+NÍVEL 4/ QUARTO SEMESTRE:
+
+Jogos Digitais para Consoles
+Aplicabilidade e Testes
+Trabalho de Conclusão de Curso II
+
+MERCADO DE TRABALHO:
+
+O profissional em Desenvolvimento de Jogos atuará nas fases após a criação do jogo.
+Ele dará vida ao jogo, sendo responsável pela implementação da mecânica.
+Suas competências se basearão em programação, animação, sons, entre outros elementos.
+
+PREMIAÇÕES: 
+
+****
+
+LOGIN:
+
+ALUNO / PROFESSOR / COORDENADOR
+
+NICKNAME:
+SENHA:
+
+START/GO!:
+
+PERFIL COORDENADOR:
+- INCLUIR NOVO CURSO:
+
+Nome do curso:
+Duração:
+Carga horária:
+Descrição do curso:
+Semestres:
+Extras: (avaliação, mercado de trabalho, etc)
+
+***ADICIONE UMA DISCIPLINA (NOVO CURSO)***
+Selecionar semestre:
+Nome da disciplina:
+Descrição:
+
+***INCLUIR***
+
+**NOVO FORMULÁRIO** OU
+ **CONCLUIR***
+
+
+- INCLUIR NOVA DISCIPLINA (CURSO JÁ EXISTENTE):
+
+1) **Selecionar curso**
+2) **Selecionar semestre**:
+
+Nome da disciplina:
+Descrição:
+
+***INCLUIR DISCIPLINA***
+
+***ADICIONAR OUTRA DISCIPLINA*** (volta para o 'campo' acima)
+ou ***CONCLUIR INCLUSÕES E ALTERAÇÕES***
+
+

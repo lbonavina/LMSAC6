@@ -1,0 +1,134 @@
+<html>
+<head>
+		<title>LMS - Bem vindo</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
+<script language="javascript" type="text/javascript">
+var count = 0;
+function contador() {
+    {
+        var nome = document.forms["form1"]["nome"].value;
+		var ra = document.forms["form1"]["ra"].value;
+		var x = 0;
+		
+		
+		if(document.form1.op[0].checked == false 
+    	&& document.form1.op[1].checked == false){
+			x++;
+            alert("Escolha Entre Aprovado ou  Cancelado!");  
+		}
+
+		if(nome == ""){
+			x++;
+            alert("Coloque o Nome !");
+            
+        }
+		
+		if(ra == ""){
+			x++;
+            alert("Coloque o RA !");
+        }
+			
+        if(x == 0){
+			count++;
+			alert("Inserido com Sucesso");
+		}
+
+        if(count == 20){
+            alert("Minimo de 20 Alcançado");
+        }
+		if(count == 60){
+            alert("Maximo de 60 Alcançado !");
+   document.getElementById('btn').disabled=true;
+
+        }
+		
+		
+		
+    }; 
+}
+function validar() {
+		 if(count < 20){
+			alert('Inserimento Minimo Não Alcançado!');
+			return false;
+		 }
+		  if(count > 60){
+			alert('Inserimento Maximo Alcançado!');
+			return false;
+		 }
+		  if(count >= 20 ){
+			alert('Inserido Com Sucesso');
+			count = 0;
+			document.getElementById('btn').disabled=false;
+		 }
+}
+</script>
+</head>
+</head>
+ <body>
+
+ 	
+<header>
+	<div class="menu-center">
+	<div class="logo"><img src="img/logo.png" alt="Logo Aura" height="65" /></div>
+	<nav class="menu-home">
+		<a href="index.html"><li><i class="fas fa-home"></i> HOME</li></a>
+		<div class="dropdown menu-li">
+			<span><i class="fas fa-certificate"></i> CURSOS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+						<a href="detalhe_curso.html"><li class="item-drop">DETALHES DE CURSO</li></a>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown menu-li">
+			<span><i class="fab fa-leanpub"></i> DISCIPLINAS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+					<a href="disciplinas_curso.html"><li class="item-drop">DISCIPLINAS DE CURSO</li></a>
+					<hr>
+					<a href="detalhe_disci.html"><li class="item-drop">DETALHES DA DISCIPLINA</li>
+				</div>
+			</div>
+		</div>
+		<a href="m_curso.html"><li><i class="fas fa-plus"></i> CURSO</li></a>
+		<a href="m_disciplina.html"><li><i class="fas fa-plus"></i> DISCIPLINA</li></a>
+		<a href="new-aluno.html"><li><i class="fas fa-plus"></i> NOVO ALUNO</li></a>
+		<a href="matricula.html"><li><i class="fas fa-plus"></i>MATRICULA</li></a>
+		<a href="login.html"><li class="btn-login"><i class="fas fa-user-circle"></i> LOGIN</li></a>
+	</nav>
+	</div>
+</header>
+<img src="img/img2.jpg" width="100%"><br/><br/>
+</head>
+<center>
+<br /> <br />
+<div class="form-base">
+ 	<div class="titulo">MATRI<span class="purple">CULA</span></div>
+ <body>
+</center>
+<form name="form1" action="#" onsubmit="return validar()" method="post">
+<center>
+
+Nome Completo: <input name="nome" type="text"> &nbsp;&nbsp; RA: <input name="ra" type="text">
+<input type="radio" name="op" value="aprovado"> Aprovado 
+<input type="radio" name="op" value="cancelado"> Cancelado
+
+ </p>
+ <br/><br/>
+<button type="button" onclick="validar();" id="btn1">Enviar</button><button type="button" onclick="contador();" id="btn">Inserir</button><br><input type="reset" value="Limpar">
+</center>
+</form>
+</div>
+</body>
+</table>
+</fieldset>
+</html>
+
+</body>
+
+</html>

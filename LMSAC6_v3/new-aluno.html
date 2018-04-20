@@ -1,0 +1,141 @@
+<html>
+<head>
+		<title>LMS - Bem vindo</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
+<title>Formulários com Javascript</title>
+<script language="javascript" type="text/javascript">
+function validar() {
+var nome = document.forms["form1"]["nome"].value;
+var data = document.forms["form1"]["data"].value;
+var cpf = document.forms["form1"]["cpf"].value;
+var email = document.forms["form1"]["email"].value;
+var celular = document.forms["form1"]["celular"].value;
+var login = document.forms["form1"]["login"].value;
+var senha = document.forms["form1"]["senha"].value;
+var rep_senha = document.forms["form1"]["rep_senha"].value;
+
+if (nome == "") {
+alert('Preencha o campo com o seu nome completo');
+return false;
+}
+if (data == "") {
+alert('Preencha o campo com sua data de nascimento');
+return false;
+}
+if (cpf == "") {
+alert('Preencha o campo com seu cpf');
+return false;
+}
+if (email == "") {
+alert('Preencha o campo com seu email');
+return false;
+}
+if (celular == "") {
+return false;
+}
+if (login == "") {
+alert('Preencha o campo com seu login');
+return false;
+}
+if (senha == "") {
+alert('Preencha o campo com sua senha');
+return false;
+}
+if (rep_senha != senha) {
+alert('Repita sua senha correta');
+return false;
+}
+if (nome.length > 25){
+alert('Nome só pode ter no máximo 25 caracteres.');
+return false;
+}
+
+
+}
+</script>
+</head>
+ <body>
+
+ 	
+<header>
+	<div class="menu-center">
+	<div class="logo"><img src="img/logo.png" alt="Logo Aura" height="65" /></div>
+	<nav class="menu-home">
+		<a href="index.html"><li><i class="fas fa-home"></i> HOME</li></a>
+		<div class="dropdown menu-li">
+			<span><i class="fas fa-certificate"></i> CURSOS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+						<a href="detalhe_curso.html"><li class="item-drop">DETALHES DE CURSO</li></a>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown menu-li">
+			<span><i class="fab fa-leanpub"></i> DISCIPLINAS</span>
+			<div class="dropdown-content">
+				<div class="dropdown-center">
+					<a href="disciplinas_curso.html"><li class="item-drop">DISCIPLINAS DE CURSO</li></a>
+					<hr>
+					<a href="detalhe_disci.html"><li class="item-drop">DETALHES DA DISCIPLINA</li>
+				</div>
+			</div>
+		</div>
+		<a href="m_curso.html"><li><i class="fas fa-plus"></i> CURSO</li></a>
+		<a href="m_disciplina.html"><li><i class="fas fa-plus"></i> DISCIPLINA</li></a>
+		<a href="new-aluno.html"><li><i class="fas fa-plus"></i> NOVO ALUNO</li></a>
+		<a href="matricula.html"><li><i class="fas fa-plus"></i>MATRICULA</li></a>
+		<a href="login.html"><li class="btn-login"><i class="fas fa-user-circle"></i> LOGIN</li></a>
+	</nav>
+	</div>
+</header>
+<img src="img/img3.jpg" width="100%"><br/><br/>
+
+<br><br>
+ 	
+
+ 	<div class="form-base">
+ 	<div class="titulo">NOVO <span class="purple">ALUNO</span></div>
+
+<div name="form1" action="#" onsubmit="return validar()" method="post">
+
+	<div class="title2">Nome Completo</div>
+<input name="nome" type="text" placeholder="Digite o Seu Nome">  <br /><br / >
+
+<div class="title2">Data de Nascimento</div>
+<input name="data" type="text" placeholder="Digite a Data de Nascimento"><br /><br />
+
+<div class="title2">CPF:</div>
+<input name="cpf" type="text" placeholder="Digite seu CPF"><br /><br />
+
+<div class="title2">E-mail:</div>
+<input name="email" type="text" placeholder="Digite Seu E-mail" ><br /><br />
+
+<div class="title2">Celular:</div>
+<input name="celular" type="text" placeholder="Digite o Numero do Celular"><br /><br />
+
+<div class="title2">Login:</div>
+<input name="login" type="text" placeholder="Digite o Login"><br /><br />
+
+<div class="title2">Senha:</div>
+<input name="senha" type="password" placeholder="Digite a Senha"><br /><br />
+
+<div class="title2">Repitir Senha:</div>
+<input name="rep_senha" type="password" placeholder="Digite Novamente"><br /><br />
+<input type="submit" value="Enviar" class="btn-1">
+<input type="reset" value="Limpar" class="btn-1">
+<br>
+<br>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+</body>
+
+</html>

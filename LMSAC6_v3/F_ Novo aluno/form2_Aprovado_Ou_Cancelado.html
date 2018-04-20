@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Formulários com Javascript</title>
+<script language="javascript" type="text/javascript">
+var count = 0;
+function contador() {
+    {
+        var nome = document.forms["form1"]["nome"].value;
+		var ra = document.forms["form1"]["ra"].value;
+		var x = 0;
+		
+		
+		if(document.form1.op[0].checked == false 
+    	&& document.form1.op[1].checked == false){
+			x++;
+            alert("Escolha Entre Aprovado ou  Cancelado!");  
+		}
+
+		if(nome == ""){
+			x++;
+            alert("Coloque o Nome !");
+            
+        }
+		
+		if(ra == ""){
+			x++;
+            alert("Coloque o RA !");
+        }
+			
+        if(x == 0){
+			count++;
+			alert("Inserido com Sucesso");
+		}
+
+        if(count == 20){
+            alert("Minimo de 20 Alcançado");
+        }
+		if(count == 60){
+            alert("Maximo de 60 Alcançado !");
+   document.getElementById('btn').disabled=true;
+
+        }
+		
+		
+		
+    }; 
+}
+function validar() {
+		 if(count < 20){
+			alert('Inserimento Minimo Não Alcançado!');
+			return false;
+		 }
+		  if(count > 60){
+			alert('Inserimento Maximo Alcançado!');
+			return false;
+		 }
+		  if(count >= 20 ){
+			alert('Inserido Com Sucesso');
+			count = 0;
+			document.getElementById('btn').disabled=false;
+		 }
+}
+</script>
+</head>
+<center>
+<img src="logo.png">
+<br /> <br />
+<fieldset>
+ <legend>NOVO ALUNO</legend> 
+ <body>
+</fieldset>
+</center>
+<form name="form1" action="#" onsubmit="return validar()" method="post">
+<center>
+<fieldset>
+
+Nome Completo: <input name="nome" type="text"> &nbsp;&nbsp; RA: <input name="ra" type="text">
+<input type="radio" name="op" value="Aprovado"> Aprovado 
+<input type="radio" name="op" value="Cancelado"> Cancelado
+
+ </p>
+ <br/><br/>
+<button type="button" onclick="validar();" id="btn1">Enviar</button><button type="button" onclick="contador();" id="btn">Inserir</button><br><input type="reset" value="Limpar">
+</center>
+</form>
+</body>
+</table>
+</fieldset>
+</html>
