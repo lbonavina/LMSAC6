@@ -29,7 +29,7 @@ nav{
 	padding-bottom: 15px;
 }
 .menu-center{
-	width: 900px;
+	width: 1050px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -296,6 +296,17 @@ select {
 }
 
 input[type= date] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #636867;
+}
+
+input[type= password] {
 	width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
