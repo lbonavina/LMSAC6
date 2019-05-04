@@ -27,7 +27,7 @@ CURSOS:
 
 DESIGN DE JOGOS
 Duração: 2 anos
-Carga Horária: 2.400 horas (só pra preencher mesmo)
+Carga Horária: 2.400 horas
 Curso presencial, de segunda a sexta.
 
 NÍVEL 1/ PRIMEIRO SEMESTRE:
@@ -60,51 +60,51 @@ Criação e Documentação
 Descrição:
 
 Ilustração Digital
-Descrição:
+Descrição: O curso capacita o profissional para produzir ilustrações utilizando as técnicas e ferramentas devidas, com o objetivo de representar ideias e conceitos na forma gráfica. 
 
 Design de Jogo Analógico
-Descrição:
+Descrição: Em design de jogo analógico, a interface, arte e outras informações relacionadas ao material de um jogo serão estudados e desenvolvidos.
 
 NÍVEL 3 / TERCEIRO SEMESTRE: 
 
 Design de Personagens
-Descrição:
+Descrição: Nessa disciplina será abordado todo o processo de criação dos personagens, desde a concepção da ideia até a arte conceitual do personagem.
 
 Design de Som
-Descrição:
+Descrição: O intuito dessa disciplina é o aprendizado da importância do áudio em um jogo, o que é preciso para começar a fazer áudio para games, as principais ferramentas do mercado, etc.
 
 Level Design
-Descrição:
+Descrição: Level design cuida da elaboração de uma fase, estudando o cenário, objetivo do jogador, objetivo da fase, entre outros atributos que irão compor a fase de um jogo.
 
 Modelagem e Texturarização
-Descrição:
+Descrição: Compreende o processo de renderização de cenas diversas e capacitar o uso de imagens renderizadas no processo de criação de peças gráficas para fins diversos.
 
 Metodologia Científica
-Descrição:
+Descrição: A Metodologia científica é uma disciplina que faz parte do currículo dos cursos de graduação, com o objetivo de auxiliar na elaboração de um trabalho científico. É uma ferramenta de fundamental importância para o conhecimento dos métodos que são empregados na elaboração do Trabalho de Conclusão de Curso (TCC).
 
 NÍVEL 4 / QUARTO SEMESTRE:
 
 Direção de arte para jogos
-Descrição:
+Descrição: O conteúdo será enfatizado no processo de direção artística e visual que o jogo em desenvolvimento terá. 
 
 Ambiente 2D
-Descrição:
+Descrição: Auxílio na criação tanto de ambientes como de personagens em 2D.
 
 Estágio Supervisionado
-Descrição:
+Descrição: Estágio para aluno colocar em prática suas habilidades no mercado de trabalho.
 
 Ambiente 3D
-Descrição:
+Descrição: Habilita o acadêmico a construir objetos tridimensionais diversos e cenas renderizadas complexas usando software de modelagem 3D.
 
 Design de Interface e Interação
-Descrição:
+Descrição: O design de interface diz respeito à parte visual, à usabilidade, arquitetura da informação, navegação, transição de telas. Ou seja, todos os recursos que incrementam e melhoram a forma como o usuário lida com o produto.
 
 Transmídia
 Descrição: A transmídia tem como objetivo mesclar diferentes mídias para transmitir variados conteúdos para o público de forma que os meios se complementem.
 Nos jogos, o estudo da transmídia será importante para induzir o ato de contar histórias através de várias mídias dentro de um cenário.
 
 Trabalho de Conclusão de Curso
-Descrição:
+Descrição: Disciplina para continuidade e término do projeto, que será apresentado e avaliado por uma banca examinadora no final do curso.
 
 Mercado de trabalho:
 O profissional em Design de Games atuará na fase de criação, desde os primeiros passos para a construção de um game.
@@ -113,7 +113,7 @@ Ele será responsável pela construção do enredo, do universo onde o jogo ocorre, 
 
 DESENVOLVIMENTO DE JOGOS
 Duração: 2 anos
-Carga horária: 2.400 horas (só pra preencher mesmo)
+Carga horária: 2.400 horas
 Curso presencial, de segunda a sexta.
 
 NÍVEL 1/ PRIMEIRO SEMESTRE:
@@ -121,49 +121,55 @@ Fundamentos da Animação 3D
 Detalhes:
 
 Computação gráfica
-Detalhes:
+Descrição: A computação gráfica consiste no estudo de todo tipo de efeito e animação, a fim de aprimorar o jogo.
+Nessa disciplina o foco será em 
 
 Lógica de Programação
-Detalhes:
+Detalhes: O aluno aprenderá a construir algoritmos e utilizar sequências de lógicas, adaptadando-as para linguagem de computador por meio da programação.
 
 Engine I
-Detalhes:
+Detalhes: Será estudado a fundo conceitos e funções de um engine.
 
-Introdução a Física
-Detalhes:
+Matemática Aplicada a Jogos Digitais
+Descrição: Apresentando bases da matemática que, uma vez dominada, torna o desenvolvimento de jogos muito mais eficiente.
 
 NÍVEL 2/ SEGUNDO SEMESTRE:
 Planejamento de Jogos
-Detalhes:
+Detalhes: É a disciplina que enfatiza a parte essencial no desenvolvimento, onde ocorre a arquitetura e preparação. 
 
 Transmídia
 Detalhes: A transmídia tem como objetivo mesclar diferentes mídias para transmitir variados conteúdos para o público de forma que os meios se complementem.
 Nos jogos, o estudo da transmídia será importante para induzir o ato de contar histórias através de várias mídias dentro de um cenário.
 
 Física Aplicada a Jogos Digitais
-Detalhes:
+Descrição: Grandes explosões, objetos voando, caindo e batendo de forma bastante realista. Esses efeitos são produzidos com a ajuda de bibliotecas ou motores dedicados a realizar a simulação física dos jogos e neste artigo iremos explorar os conceitos fundamentais para se aprender a utilizar essas bibliotecas e dar mais realismo a nossos jogos.
 
 Engine II
-Detalhes:
+Detalhes: Os alunos farão trabalhos relacionados a uso de engines.
 
 Programação para Jogos
-Detalhes:
+Detalhes: Será estudado todo o processo de programação, dando ênfase a linguagens, ferramentas adequadas para o desenvolvimento de jogos.
 
 NÍVEL 3/ TERCEIRO SEMESTRE:
 Jogos Digitais para Dispositivos Móveis
-Detalhes:
+Descrição: Este curso visa capacitar os alunos para o desenvolvimento de jogos para dispositivos móveis, utilizando e aprimorando técnicas de desenvolvimento de jogos aplicados ao desenvolvimento para dispositivos móveis.
 
-Redes
-Detalhes:
+Redes para Jogos
+Descrição: Será ensinado como pensar, organizar, planejar e desenvolver jogos multiplayer em redes.
 
-Trabalho de Conclusão de Curso
-Detalhes:
+Trabalho de Conclusão de Curso I
+Detalhes: Os alunos darão início a construção de um projeto para ser apresentado no final do curso.
 
 NÍVEL 4/ QUARTO SEMESTRE:
 
 Jogos Digitais para Consoles
+Descrição:
+
 Aplicabilidade e Testes
+Descrição: É estudado se o jogo será rentável e útil no mercado e os alunos terão as referências necessárias para testar um jogo, avaliando cada item para que não tenha falhas no desempenho.
+
 Trabalho de Conclusão de Curso II
+Descrição: Disciplina para continuidade e término do projeto, que será apresentado e avaliado por uma banca examinadora no final do curso.
 
 MERCADO DE TRABALHO:
 
